@@ -415,11 +415,11 @@ document.addEventListener('touchend', (e) => {
 	checkWin();
 
 	if(hasLost () == true){
-		setTimeout(() => ){
+		setTimeout(() => {
 			alert("Game is over");
 			restartGame();
 			alert("Restart the game");
-		}
+		})
 	}
 })
 
